@@ -1,4 +1,4 @@
-const runtime = require('regenerator-runtime/runtime');
+import "regenerator-runtime/runtime";
 
 const ethereumButton = document.querySelector('.enableEthereumButton');
 const showAccount = document.querySelector('.showAccount');

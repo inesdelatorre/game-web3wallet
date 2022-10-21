@@ -1,6 +1,7 @@
 {
   "name": "game-web3wallet",
   "version": "0.1.0",
+  "type": "module",
   "private": true,
   "main": "index.html",
   "homepage": "https://inesdelatorre.github.io/game-web3wallet",
