@@ -1,0 +1,1 @@
+{"version":3,"sources":["test.js"],"names":["ethereum","request","method"],"mappings":";AAAAA,SAASC,QAAQ,CAACC,OAAO","file":"test.847d4add.js","sourceRoot":"..","sourcesContent":["ethereum.request({method:'eth_requestAccounts'})"]}
