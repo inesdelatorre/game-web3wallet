@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="./test.js"></script>
     <title>ChainSafe Metamask Wallet</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -13,10 +12,20 @@
       <div class="center">
         <div id="logo">
           <img src="./chainsafe.png" alt="ChainSafe" />
+          <button class="enableEthereumButton">Enable Ethereum</button>
         </div>
         <div id="response-text"></div>
         <button id="response-button">Copy</button>
       </div>
     </div>
+
+    <script>
+      const ethereumButton = document.querySelector('.enableEthereumButton');
+
+      ethereumButton.addEventListener('click', () => {
+        //Will Start the metamask extension
+        ethereum.request({ method: 'eth_requestAccounts' });
+      });
+    </script>
   </body>
 </html>
