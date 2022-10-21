@@ -1,1 +1,0 @@
-{"version":3,"sources":["test.js"],"names":["alert"],"mappings":";AAAAA,MAAM","file":"test.ba4907e3.js","sourceRoot":"..","sourcesContent":["alert(\"Loaded\");"]}
