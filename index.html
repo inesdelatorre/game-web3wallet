@@ -16,16 +16,10 @@
         </div>
         <div id="response-text"></div>
         <button id="response-button">Copy</button>
+        <h2>Account: <span class="showAccount"></span></h2>
       </div>
     </div>
 
-    <script>
-      const ethereumButton = document.querySelector('.enableEthereumButton');
-
-      ethereumButton.addEventListener('click', () => {
-        //Will Start the metamask extension
-        ethereum.request({ method: 'eth_requestAccounts' });
-      });
-    </script>
+    <script src="test.js"></script>
   </body>
 </html>
