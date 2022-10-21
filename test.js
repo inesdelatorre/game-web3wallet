@@ -1,1 +1,1 @@
-ethereum.request({method:'eth_requestAccounts'})
+alert("Loaded");
