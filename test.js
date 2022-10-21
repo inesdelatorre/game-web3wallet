@@ -4,6 +4,7 @@ const ethereumButton = document.querySelector('.enableEthereumButton');
 const showAccount = document.querySelector('.showAccount');
 
 ethereumButton.addEventListener('click', () => {
+    alert("hi!");
     getAccount();
 });
 
